@@ -1,5 +1,5 @@
 import React from "react";
 
-export const emna = () => {
-  return <div>heloooo from emna</div>;
+export const Emna = () => {
+  return <div>heloooo from Emna</div>;
 };

@@ -1,10 +1,10 @@
 import './App.css';
-import { Emna } from './emna';
+import Mohamed from './Mohamed';
 
 function App() {
   return (
     <div class="App">
-      <Emna />
+      <Mohamed/>
     </div>
   );
 }

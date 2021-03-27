@@ -8,9 +8,6 @@ dbConnect();
 app.use(express.json());
 app.use("/api/restaurant", require("./routes/restaurants"));
 
-//hethi mta3 l'authentification:
-//app.use("/api/user", require("./router/user"));//
-
 const PORT = process.env.PORT;
 
 app.listen(PORT, (err) =>

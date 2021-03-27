@@ -1,9 +1,10 @@
 import './App.css';
+import { Emna } from './emna';
 
 function App() {
   return (
     <div class="App">
-      <h1>HELLO IN OUR MERN PROJECT</h1>
+      <Emna />
     </div>
   );
 }

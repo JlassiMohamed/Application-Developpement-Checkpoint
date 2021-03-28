@@ -1,3 +1,5 @@
+console.clear()
+
 const express = require("express");
 const app = express();
 const dbConnect = require("./config/dbConnect");
@@ -6,7 +8,7 @@ require("dotenv").config();
 dbConnect();
 
 app.use(express.json());
-app.use("/api/restaurant", require("./routes/restaurants"));
+app.use("/api/user", require("./routes/user"));
 
 const PORT = process.env.PORT;
 

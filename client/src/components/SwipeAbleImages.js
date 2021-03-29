@@ -4,4 +4,4 @@ const SwipeAbleImages = () => {
   return <div>SwipeAbleImages</div>;
 };
 
-export default SwipeAbleImages;
+export default SwipeAbleImages; 

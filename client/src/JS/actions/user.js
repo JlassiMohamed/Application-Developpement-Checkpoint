@@ -67,3 +67,4 @@ export const currentUser = () => async (dispatch) => {
     dispatch({ type: FAIL_USER, payload: error.response.data });
   }
 };
+

@@ -17,7 +17,7 @@ export const register = (newUser, history) => async (dispatch) => {
     const result = await axios.post("/api/user/signup", newUser);
 
     dispatch({ type: REGISTER_USER, payload: result.data }); //payload={msg , token , user}
-    history.push("/"); 
+    history.push("/");
     // history.goBack()
   } catch (error) {
     console.log(error.response.data.errorrs);
@@ -32,7 +32,7 @@ export const login = (user, history) => async (dispatch) => {
   try {
     const result = await axios.post("/api/user/signin", user);
     dispatch({ type: LOGIN_USER, payload: result.data }); //msg /token , user
-    history.push("/"); 
+    history.push("/");
     // history.goBack()
   } catch (error) {
     // error.response.data.errors.map((el) =>
@@ -52,7 +52,7 @@ export const logout = () => {
 
 export const videErrors = () => {
   return {
-    type: VIDE_ERRORS
+    type: VIDE_ERRORS,
   };
 };
 

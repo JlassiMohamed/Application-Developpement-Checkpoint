@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-import Errors from "../Errors/Errors";
+import Errors from "../../components/Errors/Errors";
 
 import { register, videErrors } from "../../JS/actions/user";
 

@@ -3,7 +3,7 @@ import "../SignUp/SignUp.css";
 import { useDispatch, useSelector } from "react-redux";
 import { videErrors, login } from "../../JS/actions/user";
 import { Link } from "react-router-dom";
-import Errors from "../../pages/Errors/Errors";
+import Errors from "../../components/Errors/Errors";
 
 const SignIn = ({ history }) => {
   const [user, setuser] = useState({});
@@ -104,8 +104,3 @@ const SignIn = ({ history }) => {
 };
 
 export default SignIn;
-
-
-
-
-

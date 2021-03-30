@@ -9,6 +9,9 @@ dbConnect();
 
 app.use(express.json());
 app.use("/api/user", require("./routes/user"));
+app.use("/api/seller", require("./routes/seller"));
+app.use("/api/item", require("./routes/item"));
+
 
 const PORT = process.env.PORT;
 

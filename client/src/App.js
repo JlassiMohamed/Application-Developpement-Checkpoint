@@ -9,8 +9,8 @@ import Landpage from "./Pages/Landpage/Landpage";
 import Order from "./Pages/Order/Order";
 import SignIn from "./Pages/SignIn/SignIn";
 import SignUp from "./Pages/SignUp/SignUp";
-import { currentUser } from "./JS/actions/user";
 import PrivateRoute from "./router/PrivateRoute";
+import { currentUser } from "./JS/actions/user";
 import "./App.css";
 
 function App() {

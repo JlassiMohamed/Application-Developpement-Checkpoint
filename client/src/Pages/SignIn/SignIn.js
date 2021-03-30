@@ -3,7 +3,7 @@ import "../SignUp/SignUp.css";
 import { useDispatch, useSelector } from "react-redux";
 import { login, videErrors } from "../../JS/actions/user";
 import { Link } from "react-router-dom";
-import Errors from "../../Components/Errors";
+import Errors from "../../Components/Errors/Errors";
 
 const SignIn = ({ history }) => {
   const [user, setuser] = useState({});
